@@ -68,6 +68,7 @@
     background-size: 200% 100%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
     transition: 1.2s;
 }
 
