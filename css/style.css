@@ -54,6 +54,70 @@
     }
 }
 
+#cards > div > div.card {
+    background-color: #202225; 
+    color: #FFF
+}
+#cards > div > div.card > div.card-body {
+    padding-bottom: 1rem!important;
+}
+#cards > div > div.card > div.card-body > div.ico:not(.icon-shape) {
+    background-color: #dc3545; 
+    width: 90px; 
+    height: 90px; 
+    border-radius: 90px; 
+    margin-left: calc(50% - 45px);
+}
+
+@media only screen and (max-width: 991px) {
+    #cards > div > div {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+.video-responsive { 
+    overflow:hidden; 
+    padding-bottom:56.25%; 
+    position:relative; 
+    height:0;
+}
+    
+.video-responsive iframe {
+    left:0; 
+    top:0; 
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.main-section {
+    color: #FFF; 
+}
+@media only screen and (max-width: 1199px) {
+    body > section:nth-child(4),
+    body > section:nth-child(5),
+    body > section:nth-child(6),
+    body > section:nth-child(7) {
+        margin-top: 50px!important
+    }
+    body > section:nth-child(4) > div > div,
+    body > section:nth-child(5) > div > div,
+    body > section:nth-child(6) > div > div {
+        flex-direction: column;
+    }
+    body > section:nth-child(4) > div > div > div:nth-child(1) {
+        order: 2!important
+    } 
+    body > section:nth-child(5) > div > div > div.col-md-6.order-md-2 {
+        order: 1!important
+    }
+    body > section:nth-child(5) > div > div > div.col-md-6.order-md-1 {
+        order: 2!important
+    }
+    body > section:nth-child(6) > div > div > div.col-md-6.order-md-2 {
+        order: 3!important
+    }
+}
+
 .AnimedTitle {
     background-color: #dc3545;
     font-size: 70px;
