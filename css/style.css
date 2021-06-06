@@ -1,3 +1,5 @@
+@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
+
 .navbar-nav a {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -134,6 +136,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     transition: 1.2s;
+    font-family: Discordinated;
 }
 
 .AnimedTitle:hover {
