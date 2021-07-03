@@ -1,4 +1,10 @@
-@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
+@font-face {
+    font-family: 'Discordinated';
+    src: url('/css/DISCORDINATED.woff2') format('woff2'),
+        url('/css/DISCORDINATED.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .navbar-nav a {
     font-family: 'Roboto', sans-serif;
